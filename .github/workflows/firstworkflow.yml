@@ -25,7 +25,7 @@ jobs:
          - name: Event name
            run: |
              echo "Event name: ${{ github.event_name }}"
-`
+
   windows-echo:
       if: github.event_name == 'push' 
       runs-on:  windows-latest
